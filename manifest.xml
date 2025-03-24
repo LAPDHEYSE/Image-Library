@@ -15,6 +15,6 @@
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="taskpane.html"/>
+    <SourceLocation DefaultValue="https://github.com/LAPDHEYSE/Image-Library/blob/5c1e3e1ea35c2a08450f39a95f511aebf4a7c041/taskpane.html"/>
   </DefaultSettings>
 </OfficeApp>
