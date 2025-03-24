@@ -15,6 +15,6 @@
     <Host Name="Presentation"/>
   </Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://your-domain/taskpane.html"/>
+    <SourceLocation DefaultValue="taskpane.html"/>
   </DefaultSettings>
 </OfficeApp>
