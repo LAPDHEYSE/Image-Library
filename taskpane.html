@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="taskpane.css">
+</head>
+<body>
+	<div id="container"></div>
+	<div id="drop-area">
+		<p>Drag & Drop Images Here</p>
+	</div>
+	<div id="url-import">
+		<input type="text" id="imageUrl" placeholder="Enter image URL">
+		<button id="importButton">Import Image</button>
+	</div>
+	<button id="deleteSelectedButton" class="delete-button">Delete Selected Images</button>
+	<br><br>
+	<div id="timerContainer">
+		<input type="number" id="minutes" placeholder="Minutes" min="0" style="width: 60px;">
+		<input type="number" id="seconds" placeholder="Seconds" min="0" max="59" style="width: 60px;">
+		<button id="startTimerButton">Start</button>
+		<button id="resetTimerButton">Reset</button>
+		<div id="timerBar" style="width: 100%; height: 20px; background-color: lightgray; margin-top: 10px;">
+			<div id="timerProgress" style="width: 100%; height: 100%; background-color: green;"></div>
+		</div>
+		<div id="timerDisplay" style="margin-top: 10px;">00:00</div>
+	</div>
+	<script src="taskpane.js"></script>
+</body>
+</html>
